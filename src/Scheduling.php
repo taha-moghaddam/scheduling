@@ -2,7 +2,7 @@
 
 namespace Encore\Admin\Scheduling;
 
-use Encore\Admin\Admin;
+use Encore\Admin\Facades\Admin;
 use Encore\Admin\Extension;
 use Illuminate\Console\Scheduling\CallbackEvent;
 use Illuminate\Support\Str;
