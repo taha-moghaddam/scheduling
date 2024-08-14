@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\Scheduling\\": "src/"
+            "Bikaraan\\BCore\\Scheduling\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\Scheduling\\SchedulingServiceProvider"
+                "Bikaraan\\BCore\\Scheduling\\SchedulingServiceProvider"
             ]
 
         }
