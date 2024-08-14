@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\Scheduling;
+namespace Bikaraan\BCore\Scheduling;
 
 use Illuminate\Support\ServiceProvider;
 

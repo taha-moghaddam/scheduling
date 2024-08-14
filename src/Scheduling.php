@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Scheduling;
+namespace Bikaraan\BCore\Scheduling;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Extension;
+use Bikaraan\BCore\Facades\Admin;
+use Bikaraan\BCore\Extension;
 use Illuminate\Console\Scheduling\CallbackEvent;
 use Illuminate\Support\Str;
 
@@ -158,8 +158,8 @@ class Scheduling extends Extension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('scheduling', 'Encore\Admin\Scheduling\SchedulingController@index')->name('scheduling-index');
-            $router->post('scheduling/run', 'Encore\Admin\Scheduling\SchedulingController@runEvent')->name('scheduling-run');
+            $router->get('scheduling', 'Bikaraan\BCore\Scheduling\SchedulingController@index')->name('scheduling-index');
+            $router->post('scheduling/run', 'Bikaraan\BCore\Scheduling\SchedulingController@runEvent')->name('scheduling-run');
         });
     }
 

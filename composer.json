@@ -1,8 +1,8 @@
 {
     "name": "laravel-admin-ext/scheduling",
-    "description": "Task scheduling extension for laravel-admin",
+    "description": "Task scheduling extension for bCore",
     "type": "library",
-    "keywords": ["laravel-admin", "task", "Scheduling"],
+    "keywords": ["bcore", "task", "Scheduling"],
     "homepage": "https://github.com/laravel-admin-extensions/scheduling",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.5|dev-master"
+        "bikaraan/bcore": "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0",

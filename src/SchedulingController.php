@@ -1,9 +1,9 @@
 <?php
 
-namespace Encore\Admin\Scheduling;
+namespace Bikaraan\BCore\Scheduling;
 
-use Encore\Admin\Facades\Admin;
-use Encore\Admin\Layout\Content;
+use Bikaraan\BCore\Facades\Admin;
+use Bikaraan\BCore\Layout\Content;
 use Illuminate\Http\Request;
 
 class SchedulingController
